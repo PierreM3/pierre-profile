@@ -5,13 +5,13 @@ body {
     align-items: center;
     min-height: 100vh;
   }
-  
+
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   .profile-card {
     border-radius: 1em;
     width: 20em;
@@ -20,20 +20,20 @@ body {
     box-shadow: 0px 4px 46px 0px rgba(0, 0, 0, 0.14);
     position: relative;
   }
-  
+
   .profile-image img {
     border-radius: 1em 1em 0 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  
+
   .profile-image {
     height: 70%;
     position: relative;
     transition: 300ms;
   }
-  
+
   .profile-details {
     position: absolute;
     bottom: 0;
@@ -46,17 +46,17 @@ body {
     align-items: flex-end;
     transition: 400ms;
   }
-  
+
   .profile-details h2 {
     margin-bottom: 0.3em;
   }
-  
+
   .profile-details h2,
   .profile-details p {
     transition: 300ms;
     transition-delay: 300ms;
   }
-  
+
   .profile-card button {
     background-color: #ff6b6b;
     width: 5em;
@@ -71,12 +71,12 @@ body {
     transition: 400ms ease-out, background 200ms;
     z-index: 1;
   }
-  
+
   .profile-card button:hover {
     background-color: #e36060;
     transform: translateX(-50%) rotate(90deg);
   }
-  
+
   .profile-card button span {
     background-color: #fff;
     position: absolute;
@@ -84,17 +84,17 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+
   .profile-card button span:nth-child(1) {
     width: 0.4em;
     height: 2.5em;
   }
-  
+
   .profile-card button span:nth-child(2) {
     width: 2.5em;
     height: 0.4em;
   }
-  
+
   .social-media {
     position: absolute;
     width: 100%;
@@ -105,7 +105,7 @@ body {
     align-items: center;
     z-index: 1;
   }
-  
+
   .social-media a {
     text-decoration: none;
     width: 2em;
@@ -119,13 +119,13 @@ body {
     align-items: center;
     transition: background 200ms;
   }
-  
+
   /*Icon colors*/
   .social-media a:nth-child(1) {
     background-color: #fc01cd;
     animation-delay: 300ms;
   }
-  
+
   .social-media a:nth-child(2) {
     background-color: #1769ff;
     animation-delay: 400ms;
@@ -135,48 +135,48 @@ body {
     background-color: #56d263;
     animation-delay: 500ms;
   }
-  
+
   .social-media a:nth-child(4) {
     background-color: #313131;
     animation-delay: 600ms;
   }
-  
+
   /*Icon colors on hover*/
   .social-media a:nth-child(1):hover {
     background-color: #e002b7;
   }
-  
+
   .social-media a:nth-child(2):hover {
     background-color: #155ce0;
   }
-  
+
   .social-media a:nth-child(3):hover {
     background-color: #4ab455;
   }
-  
+
   .social-media a:nth-child(4):hover {
     background-color: #202020;
   }
-  
+
   /*Hide social media initially*/
   .social-media {
     display: none;
   }
-  
+
   /*Dynamic classes for JavaScript*/
   .profile-image .button-clicked {
     bottom: calc(100% - 2.5em);
     transform: translateX(-50%) rotate(-135deg);
   }
-  
+
   .image-open {
     height: 100%;
   }
-  
+
   .image-open img {
     border-radius: 1em;
   }
-  
+
   .details-open {
     position: absolute;
     bottom: 0;
@@ -188,22 +188,22 @@ body {
     );
     border-radius: 1em;
   }
-  
+
   .details-open > div {
     position: relative;
     z-index: 2;
     color: #fff;
   }
-  
+
   .social-media-show {
     display: flex;
   }
-  
+
   .social-media-show a {
     opacity: 0;
     animation: showIcon 300ms ease-out forwards;
   }
-  
+
   @keyframes showIcon {
     0% {
       opacity: 0;
