@@ -4,6 +4,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+  }
+
+  .body-background {
     margin: 0;
     padding: 0;
     background-image: url(""C:\Users\Pjmcc\Pictures\Saved Pictures\crown.png"");
