@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url("crown.png")
+    background-image: url("crown.png");
     background-size: 100px;
     background-repeat: repeat;
   }
