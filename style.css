@@ -132,7 +132,7 @@ body {
   }
 
   .social-media a:nth-child(3) {
-    background-color: #000;
+    background-color: #202020;
     animation-delay: 500ms;
   }
 
@@ -151,7 +151,7 @@ body {
   }
 
   .social-media a:nth-child(3):hover {
-    background-color: #202020;
+    background-color: #000;
   }
 
   .social-media a:nth-child(4):hover {
