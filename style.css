@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-     background: linear-gradient(180deg, rgba(11,189,241,1) 0%, rgba(222,222,222,1) 100%);
+    background: linear-gradient(180deg, rgba(11,189,241,1) 0%, rgba(222,222,222,1) 100%);
   }
 
   * {
